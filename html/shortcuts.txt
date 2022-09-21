@@ -1,0 +1,8 @@
+ctrl + space (auto completion)
+alt + shift + a (comment/uncomment toggle)
+
+//search for file in windows
+cd C:/ && dir tsc /s /b 
+
+//search for file in windows
+cd C:/ && dir ng /s /b 

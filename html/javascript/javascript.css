@@ -1,0 +1,19 @@
+form{
+    background-color: rgb(255, 127, 232);
+    font-size: 20px;
+    color: rgb(245, 12, 12);   
+}
+h2{
+    background-color: #2b85afc1;
+    font-size: 20px;
+    color: rgb(245, 12, 12);   
+}
+.hide{
+    display: none;
+}
+
+.errMsg{
+    color: rgb(245, 12, 12);
+    font-size: 20px;
+    font-style: italic;
+}

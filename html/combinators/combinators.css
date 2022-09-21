@@ -1,0 +1,50 @@
+/* p{
+background-color: aquamarine;
+font-size: 20 px;
+color: rgb(245, 12, 12);
+} */
+
+/* .pStyles{
+    background-color: aquamarine;
+    font-size: 20 px;
+    color: rgb(245, 12, 12);   
+} */
+
+/*
+All Decendents Selector
+*/
+/* #d1 span{
+    background-color: rgb(255, 127, 232);
+    font-size: 20 px;
+    color: rgb(245, 12, 12);   
+} */
+
+
+/*
+Direct Children Selector
+*/
+/* #d1 > p{
+    background-color: rgb(255, 127, 232);
+    font-size: 20 px;
+    color: rgb(245, 12, 12);   
+} */
+
+/*
+Adjacent First Sibling Selector
+*/
+
+/* #d1 + p{
+    background-color: rgb(255, 127, 232);
+    font-size: 20 px;
+    color: rgb(245, 12, 12);   
+} */
+
+/*
+General Siblings Selector
+*/
+
+#d1 ~ p{
+    background-color: rgb(255, 127, 232);
+    font-size: 20 px;
+    color: rgb(245, 12, 12);   
+}

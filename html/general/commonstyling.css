@@ -1,0 +1,33 @@
+ul{
+    display:flex;
+    list-style-type: none;
+}
+
+li{
+    background-color:aqua;
+    list-style-type: none;
+    
+}
+
+/* #l1{
+    background-color:aqua;
+    list-style-type: none;
+    
+} */
+
+a{
+    color:bisque;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    
+}
+label{
+    color:blue;
+    font-size: small;
+    
+
+}
+form{
+    background-color:blueviolet;
+}

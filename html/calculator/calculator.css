@@ -1,0 +1,16 @@
+table{
+    background-color: aquamarine;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.red{
+    background-color: rgb(255, 153, 0);
+}
+
+.green{
+    background-color: greenyellow;
+}
+.blue{
+    background-color: blueviolet;
+}

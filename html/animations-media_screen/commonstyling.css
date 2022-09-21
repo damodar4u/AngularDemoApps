@@ -1,0 +1,148 @@
+ul,li{
+    display:flex;
+    list-style-type: none;
+    background-color:rgb(204, 134, 49);
+    margin: 10px 25px;
+    padding: 0px 20px;
+    border: 5px outset red
+/*     border-radius: 75px;
+ */
+}
+
+ul,li,a{
+    text-decoration: none;
+
+}
+
+/* li{
+    background-color:aqua;
+    list-style-type: none;
+    
+} */
+
+/* #l1{
+    background-color:aqua;
+    list-style-type: none;
+    
+} */
+
+a{
+    color:rgb(125, 221, 157);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+
+}
+label{
+    color:bisque;
+    font-size: 20px;
+
+
+}
+form{
+    background-color:rgba(131, 131, 105, 0.969);
+}
+
+/* pseudo class by name
+ */
+/* #uname:hover{
+    background-color: blanchedalmond;
+    color: blueviolet;
+} */
+
+/* pseudo class by element
+ */
+/* input:hover{
+    background-color: blanchedalmond;
+    color: blueviolet;
+} */
+
+/* pseudo class by class
+ */
+
+ .hoverOver:hover{
+    background-color: blanchedalmond;
+    color: blueviolet;
+}
+
+.hoverOver:focus{
+    background-color: deeppink;
+    color:darkseagreen;
+}
+
+@keyframes animation1{
+    from{background-color: rgb(49, 154, 50);};
+    to{background-color: deeppink;};
+}
+
+@keyframes animation2{
+    25%{background-color: rgb(49, 154, 50);color: aqua;}
+    50%{background-color: deeppink;color: black;}
+    75%{background-color: rgb(32, 20, 255);color: bisque;}
+    100%{background-color: burlywood;color: crimson;}
+}
+
+/* #h21{
+    animation-name: animation2;
+    animation-duration: 10s;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+} */
+/* 
+form{
+    animation-name: animation2;
+    animation-duration: 10s;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+} */
+
+
+/* @media screen and (device-width: 414px) and (device-height: 896px){
+    label{
+        font-size: 50px;
+    }
+}
+
+@media screen and (device-width: 820px) and (device-height: 1180px){
+    label{
+        font-size: 70px;
+    }
+    form{
+        background-color: seagreen;
+    }
+} */
+
+/*  add media query to all mobiles
+ */
+
+@media screen and (max-device-width: 768px){
+    label{
+        font-size: 70px;
+    }
+    form{
+        background-color: seagreen;
+    }
+}
+
+/*  add media query to all tabs
+ */
+
+ @media screen and (min-device-width: 768px) and (max-device-width: 992px){
+    label{
+        font-size: 70px;
+    }
+    form{
+        background-color: orange;
+    }
+}
+/*  add media query to all tabs
+ */
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1200px){
+    label{
+        font-size: 50px;
+    }
+    form{
+        background-color: fuchsia;
+    }
+}

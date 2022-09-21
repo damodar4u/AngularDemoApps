@@ -1,0 +1,22 @@
+ul{
+    display:flex;
+    list-style-type: none;
+}
+
+/* #l1,#l3,#l5{
+    background-color:aqua;
+    list-style-type: none;
+    
+} */
+
+.bgClrRed{
+    background-color:rgb(255, 0, 93);
+    list-style-type: none;
+    
+}
+
+.bgClrGreen{
+    background-color:rgb(0, 255, 123);
+    list-style-type: none;
+    
+}

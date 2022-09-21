@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link type="text/css" href="blur.css" rel="stylesheet"> </link>
+        <script type="text/javascript" src="blur.js"></script>
+    </head>
+
+    <body align="center">
+        <table align="center" class="bgColor">
+            <tr>
+                <td>
+                    Enter first number:
+                </td>
+                <td>
+<!--                     <input type="text" name="num1" id="num1" onblur="readFn()" onmouseenter="redTrigger()" onmousemove="greenTrigger()" onmouseleave="blueTrigger()"/>
+ -->
+                      <input type="text" name="num1" id="num1" onmousemove="mouseMove()"" onmouseleave="mouseLeave()" />
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter second number:
+                </td>
+                <td>
+                    <input type="text" name="num2" id="num2" onblur="readSn()"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    result:
+                </td>
+                <td>
+                    <input type="text" name="result" id="result"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+<!--                     <span><button type="button" onclick="add()"> Add </button></span>
+                    <span><button type="button" onclick="substract()"> Substract </button></span> -->
+<!--                     <span><button type="button" onclick="resultVal('add')"> Add </button></span>
+                    <span><button type="button" onclick="resultVal('sub')"> Substract </button></span> -->
+                    <span><button value="add" type="button" onclick="resultVal(event)"> Add </button></span>
+                    <span><button value="sub" type="button" onclick="resultVal(event)"> Substract </button></span>
+                </td>
+                <td>
+<!--                     <span><button type="button" onclick="resultVal('mul')"> Multiply </button></span>
+                    <span><button type="button" onclick="resultVal('div')"> Divide </button></span>   -->     
+                    <span><button value="mul" type="button" onclick="resultVal(event)"> Multiply </button></span>
+                    <span><button value="div" type="button" onclick="resultVal(event)"> Divide </button></span>          
+                 </td>
+            </tr>
+
+        </table>
+
+    </body>
+
+</html>

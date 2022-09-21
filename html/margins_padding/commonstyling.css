@@ -1,0 +1,82 @@
+/* ul,li{
+    display:flex;
+    list-style-type: none;
+    background-color:rgb(204, 134, 49);
+    margin: 10px 25px;
+    padding: 0px 20px;
+    border: 5px outset red;
+    border-radius: 75px;
+
+} */
+
+/* ul,li,a{
+    text-decoration: none;
+
+} */
+
+/* li{
+    background-color:aqua;
+    list-style-type: none;
+    
+} */
+
+/* #l1{
+    background-color:aqua;
+    list-style-type: none;
+    
+} */
+
+/* a{
+    color:rgb(125, 221, 157);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+
+}
+label{
+    color:bisque;
+    font-size: 20px;
+
+
+}
+form{
+    background-color:rgba(131, 131, 105, 0.969);
+} */
+
+/* pseudo class by name
+ */
+/* #uname:hover{
+    background-color: blanchedalmond;
+    color: blueviolet;
+} */
+
+/* pseudo class by element
+ */
+/* input:hover{
+    background-color: blanchedalmond;
+    color: blueviolet;
+} */
+
+/* pseudo class by class
+ */
+/* 
+ .hoverOver:hover{
+    background-color: blanchedalmond;
+    color: blueviolet;
+}
+
+.hoverOver:focus{
+    background-color: deeppink;
+    color:darkseagreen;
+} */
+
+@keyframes animation1{
+    from{background-color: gray;};
+    to{background-color: deeppink;};
+}
+
+#h21{
+    animation-name: animation1;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+}

@@ -1,0 +1,58 @@
+<html> 
+    <head>
+        <script type="text/javascript" src="regValidate.js"></script>
+        <link type="text/css" href="javascript.css" rel="stylesheet"> </link>
+    </head>
+   
+        <body align="center">
+            <h2>Registrtation Form</h2>
+            <form align="center">
+                <table align="center">
+                    <tbody>
+                        <tr>
+                            <td>Enter username</td>
+                            <td>
+                                <input type="text" name="abs" id="uname"/>
+                            </td>
+                            <td>
+                            <span class="hide" id="unameErr">Please enter username.....</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Password</td>
+                            <td>
+                                <input type="password" name="pwd" id="pwd1"/>
+                            </td>
+                            <td>
+                                <span class="hide errMsg" id="pwd1Err">Please enter password.....</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Re-enter Password</td>
+                            <td><input type="password" name="pwd" id="pwd2"/></td>
+                            <td>
+                                <span class="hide errMsg" id="pwd2Err">Please enter confirmation password.....</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Enter phone number</td>
+                            <td><input type="number errMsg" name="phn" id="phn"/></td>
+                            <td>
+                                <span class="hide" id="phnErr">Please enter phone.....</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Enter date of birth</td>
+                            <td><input type="date errMsg" name="dob" id="dob"/></td>
+                        </tr>
+                        <tr>
+                         <tr>
+                            <td><a href="para.html">If new user click to Signup</a></td>
+                            <td><button type="button" onclick="validateRegForm()">Registration</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </body>
+
+</html>

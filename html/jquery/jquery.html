@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link type="text/css" href="jquery.css" rel="stylesheet"> </link>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!--
+        <script>
+            $(document).ready(function(){
+                $("#jq1").click(function(){
+                    var fName = $("#uname").val();
+                    var passwd = $("#pwd").val();
+                    if (fName == "") {
+                        alert("first name is empty !!!!");
+                        return;
+                    }
+                    if (passwd == "") {
+                        alert("password is empty !!!!");
+                        return;
+                    }                   
+                })
+            })
+        </script>  
+ -->
+        <script type="text/javascript" src="jquery.js"></script>
+
+    </head>
+    <body align="center">
+        <h2>Login form</h2>
+        <form align="center" class="bgClr">
+            <table align="center">
+                <tr>
+                    <td>
+                        <label >Enter user name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="uname" id="uname"/>
+                        <span id="unameErr" class="errMsg">please input username</span> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Enter Password</label>
+                    </td>
+                    <td>
+                         <input type="password" name="pwd" id="pwd"/>
+                         <span id="passwdErr" class="errMsg">please input password</span> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Enter Confirmation Password</label>
+                    </td>
+                    <td>
+                         <input type="password" name="cpwd" id="cpwd"/>
+                         <span id="cpasswdErr" class="errMsg">please enter password</span> 
+                         <span id="cpasswdValidErr" class="errMsg">passwords do not match</span> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Enter Email</label>
+                    </td>
+                    <td>
+                         <input type="text" name="em" id="em"/>
+                         <span id="emErr" class="errMsg">please input email</span> 
+                         <span id="emValidErr" class="errMsg">please enter valid email ID</span> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                <button type="button" id="jq1">login</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
